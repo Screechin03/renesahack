@@ -83,9 +83,9 @@ export default function SponsorsSection() {
                                     className="absolute inset-0 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"
                                 ></div>
                                 <div className="relative z-10">
-                                    <div className="p-6 bg-white">
-                                        <div className="min-h-[150px] bg-gray-100 rounded-lg flex items-center justify-center">
-                                            <span className="text-gray-500 text-sm">Sponsor Content</span>
+                                    <div className="p-6">
+                                        <div className="min-h-[150px] flex items-center justify-center">
+                                            <span className="text-gray-600 text-sm font-medium">Sponsor Content</span>
                                         </div>
                                     </div>
                                 </div>
@@ -98,9 +98,9 @@ export default function SponsorsSection() {
                                     className="absolute inset-0 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"
                                 ></div>
                                 <div className="relative z-10">
-                                    <div className="p-6 bg-white">
-                                        <div className="min-h-[150px] bg-gray-100 rounded-lg flex items-center justify-center">
-                                            <span className="text-gray-500 text-sm">Sponsor Content</span>
+                                    <div className="p-6">
+                                        <div className="min-h-[150px] flex items-center justify-center">
+                                            <span className="text-gray-600 text-sm font-medium">Sponsor Content</span>
                                         </div>
                                     </div>
                                 </div>
@@ -113,9 +113,9 @@ export default function SponsorsSection() {
                                     className="absolute inset-0 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"
                                 ></div>
                                 <div className="relative z-10">
-                                    <div className="p-6 bg-white">
-                                        <div className="min-h-[150px] bg-gray-100 rounded-lg flex items-center justify-center">
-                                            <span className="text-gray-500 text-sm">Sponsor Content</span>
+                                    <div className="p-6">
+                                        <div className="min-h-[150px] flex items-center justify-center">
+                                            <span className="text-gray-600 text-sm font-medium">Sponsor Content</span>
                                         </div>
                                     </div>
                                 </div>
