@@ -5,7 +5,7 @@ export default function Hero() {
                 {/* Desktop View */}
                 <div className="hidden md:block">
                     <img
-                        src="/HERO SECTION.png"
+                        src="/HERO (1).png"
                         alt="Hero Image Desktop"
                         className="w-full h-auto object-cover"
                     />
