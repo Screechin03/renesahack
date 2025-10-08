@@ -60,22 +60,22 @@ export default function AboutSection() {
             </div>
 
             {/* Animated Moving Text Section */}
-            <div className="mt-12 overflow-hidden relative">
+            <div className="mt-12 overflow-hidden relative -mb-8">
                 <div className="animate-scroll">
                     <img
                         src="/Group 16 (1).png"
                         alt="Moving Disclaimer"
-                        className="h-12 w-auto object-contain block"
+                        className="h-16 md:h-12 w-auto object-contain block"
                     />
                     <img
                         src="/Group 16 (1).png"
                         alt="Moving Disclaimer"
-                        className="h-12 w-auto object-contain block"
+                        className="h-16 md:h-12 w-auto object-contain block"
                     />
                     <img
                         src="/Group 16 (1).png"
                         alt="Moving Disclaimer"
-                        className="h-12 w-auto object-contain block"
+                        className="h-16 md:h-12 w-auto object-contain block"
                     />
                 </div>
             </div>

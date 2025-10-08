@@ -290,7 +290,7 @@ export default function TimelineSection() {
                     </div>
                 </div>
             </div>
-            <div className="mt-12 overflow-hidden relative">
+            <div className="mt-12 overflow-hidden relative -mb-8">
                 <div className="animate-scroll">
                     <img
                         src="/Group 10 (1).png"

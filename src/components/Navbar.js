@@ -126,13 +126,16 @@ export default function Navbar() {
                     <div className="md:hidden">
                         <button
                             onClick={toggleMobileMenu}
-                            className="text-gray-900 hover:text-black focus:outline-none focus:text-black"
+                            className={`${isMobileMenuOpen
+                                ? 'text-white bg-black bg-opacity-80 rounded-full p-1'
+                                : 'text-gray-900 hover:text-black'
+                                } focus:outline-none transition-all duration-300`}
                         >
-                            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
                                 {isMobileMenuOpen ? (
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                                 ) : (
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                                 )}
                             </svg>
                         </button>
@@ -151,7 +154,19 @@ export default function Navbar() {
 
                     {/* Menu content */}
                     <div className="fixed top-16 left-0 right-0 bg-black bg-opacity-90 border-t border-gray-600">
-                        <div className="px-4 py-6 space-y-4">
+                        {/* Close button inside menu */}
+                        <div className="flex justify-end p-4 fixed top-0 right-0">
+                            <button
+                                onClick={toggleMobileMenu}
+                                className="text-white hover:text-gray-300 focus:outline-none"
+                            >
+                                <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div className="px-4 pb-6 space-y-4">
                             <button
                                 onClick={() => handleNavClick('home')}
                                 className={`block w-full text-left px-4 py-3 font-bayon text-xl transition-colors duration-300 ${activeSection === 'home'

@@ -239,7 +239,7 @@ export default function EventsSection() {
                     </div>
                 </div>
             </div>
-            <div className="mt-12 overflow-hidden relative">
+            <div className="mt-12 overflow-hidden relative -mb-8">
                 <div className="animate-scroll">
                     <img
                         src="/Group 10.png"
