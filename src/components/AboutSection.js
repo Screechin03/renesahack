@@ -8,7 +8,7 @@ export default function AboutSection() {
                     <div className="grid grid-cols-2 gap-8 mb-12">
                         <div className="flex-4 flex-col items-center">
                             <img
-                                src="/frame 53.png"
+                                src="/Frame 53.png"
                                 alt="Frame 53"
                                 className="w-118 h-48 object-contain mb-6"
                             />
@@ -20,7 +20,7 @@ export default function AboutSection() {
                         </div>
                         <div className="flex justify-center">
                             <img
-                                src="/group 93@2x.png"
+                                src="/Group 93@2x.png"
                                 alt="Group 93"
                                 className="w-full h-auto object-contain"
                             />
@@ -35,7 +35,7 @@ export default function AboutSection() {
                     {/* Frame 53 - Top Left */}
                     <div className="flex justify-start mb-6">
                         <img
-                            src="/frame 53.png"
+                            src="/Frame 53.png"
                             alt="Frame 53"
                             className="w-58  object-contain"
                         />
@@ -63,17 +63,17 @@ export default function AboutSection() {
             <div className="mt-12 overflow-hidden relative">
                 <div className="animate-scroll">
                     <img
-                        src="/group 16 (1).png"
+                        src="/Group 16 (1).png"
                         alt="Moving Disclaimer"
                         className="h-12 w-auto object-contain block"
                     />
                     <img
-                        src="/group 16 (1).png"
+                        src="/Group 16 (1).png"
                         alt="Moving Disclaimer"
                         className="h-12 w-auto object-contain block"
                     />
                     <img
-                        src="/group 16 (1).png"
+                        src="/Group 16 (1).png"
                         alt="Moving Disclaimer"
                         className="h-12 w-auto object-contain block"
                     />

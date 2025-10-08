@@ -28,7 +28,7 @@ export default function EventsSection() {
                                 <h3 className="text-xl font-bold text-gray-900 ">Event 1</h3>
                                 <p className="text-gray-700 mb-3">Event description goes here</p>
                                 <button >
-                                    <img src="/frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
+                                    <img src="/Frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
                                 </button>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ export default function EventsSection() {
                                 <h3 className="text-xl font-bold text-gray-900 ">Event 2</h3>
                                 <p className="text-gray-700 mb-3">Event description goes here</p>
                                 <button >
-                                    <img src="/frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
+                                    <img src="/Frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
                                 </button>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ export default function EventsSection() {
                                 <h3 className="text-xl font-bold text-gray-900 ">Event 3</h3>
                                 <p className="text-gray-700 mb-3">Event description goes here</p>
                                 <button >
-                                    <img src="/frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
+                                    <img src="/Frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
                                 </button>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ export default function EventsSection() {
                                 <h3 className="text-xl font-bold text-gray-900">Event 4</h3>
                                 <p className="text-gray-700 mb-3">Event description goes here</p>
                                 <button >
-                                    <img src="/frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
+                                    <img src="/Frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
                                 </button>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ export default function EventsSection() {
                                 <h3 className="text-xl font-bold text-gray-900">Event 5</h3>
                                 <p className="text-gray-700 mb-3">Event description goes here</p>
                                 <button >
-                                    <img src="/frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
+                                    <img src="/Frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
                                 </button>
                             </div>
                         </div>
@@ -113,7 +113,7 @@ export default function EventsSection() {
                                 <h3 className="text-xl font-bold text-gray-900 ">Event 6</h3>
                                 <p className="text-gray-700 mb-3">Event description goes here</p>
                                 <button >
-                                    <img src="/frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
+                                    <img src="/Frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
                                 </button>
                             </div>
                         </div>
@@ -147,7 +147,7 @@ export default function EventsSection() {
                                 <h3 className="text-lg font-bold text-gray-900 ">Event 1</h3>
                                 <p className="text-gray-700 mb-3 text-sm">Event description goes here</p>
                                 <button >
-                                    <img src="/frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
+                                    <img src="/Frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
                                 </button>
                             </div>
                         </div>
@@ -164,7 +164,7 @@ export default function EventsSection() {
                                 <h3 className="text-lg font-bold text-gray-900 ">Event 2</h3>
                                 <p className="text-gray-700 mb-3 text-sm">Event description goes here</p>
                                 <button >
-                                    <img src="/frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
+                                    <img src="/Frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
                                 </button>
                             </div>
                         </div>
@@ -181,7 +181,7 @@ export default function EventsSection() {
                                 <h3 className="text-lg font-bold text-gray-900 ">Event 3</h3>
                                 <p className="text-gray-700 mb-3 text-sm">Event description goes here</p>
                                 <button >
-                                    <img src="/frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
+                                    <img src="/Frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
                                 </button>
                             </div>
                         </div>
@@ -198,7 +198,7 @@ export default function EventsSection() {
                                 <h3 className="text-lg font-bold text-gray-900 ">Event 4</h3>
                                 <p className="text-gray-700 mb-3 text-sm">Event description goes here</p>
                                 <button >
-                                    <img src="/frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
+                                    <img src="/Frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
                                 </button>
                             </div>
                         </div>
@@ -215,7 +215,7 @@ export default function EventsSection() {
                                 <h3 className="text-lg font-bold text-gray-900 ">Event 5</h3>
                                 <p className="text-gray-700 mb-3 text-sm">Event description goes here</p>
                                 <button >
-                                    <img src="/frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
+                                    <img src="/Frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
                                 </button>
                             </div>
                         </div>
@@ -232,7 +232,7 @@ export default function EventsSection() {
                                 <h3 className="text-lg font-bold text-gray-900 ">Event 6</h3>
                                 <p className="text-gray-700 mb-3 text-sm">Event description goes here</p>
                                 <button >
-                                    <img src="/frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
+                                    <img src="/Frame 47.png" alt="Register Now" className="mx-auto w-30 mb-3" />
                                 </button>
                             </div>
                         </div>
