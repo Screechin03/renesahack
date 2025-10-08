@@ -242,17 +242,17 @@ export default function EventsSection() {
             <div className="mt-12 overflow-hidden relative">
                 <div className="animate-scroll">
                     <img
-                        src="/group 16 (1).png"
+                        src="/group 10.png"
                         alt="Moving Disclaimer"
                         className="h-12 w-auto object-contain block"
                     />
                     <img
-                        src="/group 16 (1).png"
+                        src="/group 10.png"
                         alt="Moving Disclaimer"
                         className="h-12 w-auto object-contain block"
                     />
                     <img
-                        src="/group 16 (1).png"
+                        src="/group 10.png"
                         alt="Moving Disclaimer"
                         className="h-12 w-auto object-contain block"
                     />
