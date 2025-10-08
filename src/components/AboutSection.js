@@ -44,7 +44,7 @@ export default function AboutSection() {
                     {/* Group 93 - Second */}
                     <div className="flex justify-center mb-8">
                         <img
-                            src="/group 93@2x.png"
+                            src="/Group 93@2x.png"
                             alt="Group 93"
                             className="w-full h-auto object-contain"
                         />
