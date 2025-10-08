@@ -17,7 +17,59 @@ export default function Home() {
         <TimelineSection />
         <SponsorsSection />
         <FAQsSection />
+
+        <img
+          src="/Union@2x.png"
+          alt="Footer Section"
+          className="w-full h-auto object-cover"
+        />
+        <div className="relative">
+          <img
+            src="/Frame 12.png"
+            alt="Footer Section"
+            className="w-full h-auto object-cover"
+          />
+
+          {/* Dummy Links - 3 Column Layout */}
+          <div className="absolute top-1/4 left-1/11 grid grid-cols-3 gap-8 text-white">
+            {/* Column 1 */}
+            <div className="flex flex-col space-y-3">
+              <h4 className="font-bold text-lg mb-2">Quick Links</h4>
+              <a href="#" className="hover:text-orange-300 transition-colors">Home</a>
+              <a href="#" className="hover:text-orange-300 transition-colors">About</a>
+              <a href="#" className="hover:text-orange-300 transition-colors">Events</a>
+              <a href="#" className="hover:text-orange-300 transition-colors">Timeline</a>
+            </div>
+
+            {/* Column 2 */}
+            <div className="flex flex-col space-y-3">
+              <h4 className="font-bold text-lg mb-2">Resources</h4>
+              <a href="#" className="hover:text-orange-300 transition-colors">Sponsors</a>
+              <a href="#" className="hover:text-orange-300 transition-colors">FAQs</a>
+              <a href="#" className="hover:text-orange-300 transition-colors">Guidelines</a>
+              <a href="#" className="hover:text-orange-300 transition-colors">Support</a>
+            </div>
+
+            {/* Column 3 */}
+            <div className="flex flex-col space-y-3">
+              <h4 className="font-bold text-lg mb-2">Connect</h4>
+              <a href="#" className="hover:text-orange-300 transition-colors">Contact Us</a>
+              <a href="#" className="hover:text-orange-300 transition-colors">Social Media</a>
+              <a href="#" className="hover:text-orange-300 transition-colors">Newsletter</a>
+              <a href="#" className="hover:text-orange-300 transition-colors">Updates</a>
+            </div>
+          </div>
+
+          {/* New Logo 1 positioned in middle right */}
+          <img
+            src="/NEW LOGO 1.png"
+            alt="New Logo"
+            className="absolute top-1/3 right-1/6 transform -translate-y-1/2 w-60 h-60 object-contain"
+          />
+        </div>
+
       </div>
+
     </div>
   );
 }

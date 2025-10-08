@@ -8,7 +8,7 @@ export default function SponsorsSection() {
                     {/* Frame 47 (1) */}
                     <div className="flex justify-start mb-12">
                         <img
-                            src="/frame 47 (1).png"
+                            src="/Frame 47 (1).png"
                             alt="Frame 47 (1)"
                             className="w-88 h-auto object-contain"
                         />
@@ -104,7 +104,7 @@ export default function SponsorsSection() {
                     {/* Frame 47 (1) */}
                     <div className="flex justify-start mb-12">
                         <img
-                            src="/frame 47 (1).png"
+                            src="/Frame 47 (1).png"
                             alt="Frame 47 (1)"
                             className="w-88 h-auto object-contain"
                         />
@@ -196,17 +196,17 @@ export default function SponsorsSection() {
             <div className="mt-12 overflow-hidden relative">
                 <div className="animate-scroll">
                     <img
-                        src="/group 10 (2).png"
+                        src="/Group 10 (2).png"
                         alt="Moving Disclaimer"
                         className="h-12 w-auto object-contain block"
                     />
                     <img
-                        src="/group 10 (2).png"
+                        src="/Group 10 (2).png"
                         alt="Moving Disclaimer"
                         className="h-12 w-auto object-contain block"
                     />
                     <img
-                        src="/group 10 (2).png"
+                        src="/Group 10 (2).png"
                         alt="Moving Disclaimer"
                         className="h-12 w-auto object-contain block"
                     />

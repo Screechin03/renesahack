@@ -19,7 +19,7 @@ export default function EventsSection() {
                         <div className="bg-white rounded-4xl shadow-lg overflow-hidden">
                             <div className="w-full h-48 ">
                                 <img
-                                    src="/frame 26.png"
+                                    src="/Frame 26.png"
                                     alt="Event Image"
                                     className="w-full h-40 object-cover"
                                 />
@@ -36,7 +36,7 @@ export default function EventsSection() {
                         <div className="bg-white rounded-4xl shadow-lg overflow-hidden">
                             <div className="w-full h-48 mb-0">
                                 <img
-                                    src="/frame 26 (1).png"
+                                    src="/Frame 26 (1).png"
                                     alt="Event Image"
                                     className="w-full h-40 object-cover"
                                 />
@@ -53,7 +53,7 @@ export default function EventsSection() {
                         <div className="bg-white rounded-4xl shadow-lg overflow-hidden">
                             <div className="w-full h-48 mb-0">
                                 <img
-                                    src="/frame 26 (2).png"
+                                    src="/Frame 26 (2).png"
                                     alt="Event Image"
                                     className="w-full h-40 object-cover"
                                 />
@@ -70,7 +70,7 @@ export default function EventsSection() {
                         <div className="bg-white rounded-4xl shadow-lg overflow-hidden">
                             <div className="w-full h-48 mb-0">
                                 <img
-                                    src="/frame 26 (3).png"
+                                    src="/Frame 26 (3).png"
                                     alt="Event Image"
                                     className="w-full h-40 object-cover"
                                 />
@@ -87,7 +87,7 @@ export default function EventsSection() {
                         <div className="bg-white rounded-4xl shadow-lg overflow-hidden">
                             <div className="w-full h-48 mb-0">
                                 <img
-                                    src="/frame 26 (4).png"
+                                    src="/Frame 26 (4).png"
                                     alt="Event Image"
                                     className="w-full h-40 object-cover"
                                 />
@@ -104,7 +104,7 @@ export default function EventsSection() {
                         <div className="bg-white rounded-4xl shadow-lg overflow-hidden">
                             <div className="w-full h-48 mb-0">
                                 <img
-                                    src="/frame 26 (5).png"
+                                    src="/Frame 26 (5).png"
                                     alt="Event Image"
                                     className="w-full h-40 object-cover"
                                 />
@@ -138,7 +138,7 @@ export default function EventsSection() {
                         <div className="bg-white rounded-4xl shadow-lg overflow-hidden">
                             <div className="w-full h-32 mb-0">
                                 <img
-                                    src="/frame 26.png"
+                                    src="/Frame 26.png"
                                     alt="Event Image"
                                     className="w-full h-28 object-cover"
                                 />
@@ -155,7 +155,7 @@ export default function EventsSection() {
                         <div className="bg-white rounded-4xl shadow-lg overflow-hidden">
                             <div className="w-full h-32 mb-0">
                                 <img
-                                    src="/frame 26 (1).png"
+                                    src="/Frame 26 (1).png"
                                     alt="Event Image"
                                     className="w-full h-28 object-cover"
                                 />
@@ -172,7 +172,7 @@ export default function EventsSection() {
                         <div className="bg-white rounded-4xl shadow-lg overflow-hidden">
                             <div className="w-full h-32 mb-0">
                                 <img
-                                    src="/frame 26 (2).png"
+                                    src="/Frame 26 (2).png"
                                     alt="Event Image"
                                     className="w-full h-28 object-cover"
                                 />
@@ -189,7 +189,7 @@ export default function EventsSection() {
                         <div className="bg-white rounded-4xl shadow-lg overflow-hidden">
                             <div className="w-full h-32 mb-0">
                                 <img
-                                    src="/frame 26 (3).png"
+                                    src="/Frame 26 (3).png"
                                     alt="Event Image"
                                     className="w-full h-28 object-cover"
                                 />
@@ -206,7 +206,7 @@ export default function EventsSection() {
                         <div className="bg-white rounded-4xl shadow-lg overflow-hidden">
                             <div className="w-full h-32 mb-0">
                                 <img
-                                    src="/frame 26 (4).png"
+                                    src="/Frame 26 (4).png"
                                     alt="Event Image"
                                     className="w-full h-28 object-cover"
                                 />
@@ -242,17 +242,17 @@ export default function EventsSection() {
             <div className="mt-12 overflow-hidden relative">
                 <div className="animate-scroll">
                     <img
-                        src="/group 10.png"
+                        src="/Group 10.png"
                         alt="Moving Disclaimer"
                         className="h-12 w-auto object-contain block"
                     />
                     <img
-                        src="/group 10.png"
+                        src="/Group 10.png"
                         alt="Moving Disclaimer"
                         className="h-12 w-auto object-contain block"
                     />
                     <img
-                        src="/group 10.png"
+                        src="/Group 10.png"
                         alt="Moving Disclaimer"
                         className="h-12 w-auto object-contain block"
                     />

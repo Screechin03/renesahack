@@ -55,7 +55,7 @@ export default function Navbar() {
                     <div className="flex-shrink-0">
                         <Link href="/">
                             <img
-                                src="/frame 80.png"
+                                src="/Frame 80.png"
                                 alt="RENESA HACK Logo"
                                 className="h-10 w-auto"
                             />

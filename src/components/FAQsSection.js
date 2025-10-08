@@ -1,4 +1,13 @@
+"use client";
+import { useState } from 'react';
+
 export default function FAQsSection() {
+    const [openFAQ, setOpenFAQ] = useState(null);
+
+    const toggleFAQ = (index) => {
+        setOpenFAQ(openFAQ === index ? null : index);
+    };
+
     const faqs = [
         {
             question: "What is RENESA HACK?",
@@ -29,40 +38,70 @@ export default function FAQsSection() {
     return (
         <section id="faqs" style={{ backgroundColor: '#ECE3DA' }} className="py-20 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
-                <div className="text-center">
-                    <h2 className="text-4xl md:text-6xl font-bold text-gray-900 font-bayon mb-8">
-                        FAQs
-                    </h2>
-                    <p className="text-xl text-gray-700 mb-12 max-w-3xl mx-auto">
-                        Got questions? We've got answers! Here are some frequently asked questions about RENESA HACK.
-                    </p>
+                {/* Frame 47(2) */}
+                <div className="flex justify-start mb-12">
+                    <img
+                        src="/Frame 47 (2).png"
+                        alt="Frame 47(2)"
+                        className="w-88 h-auto object-contain"
+                    />
+                </div>
 
-                    <div className="max-w-4xl mx-auto space-y-6">
-                        {faqs.map((faq, index) => (
-                            <div key={index} className="bg-white rounded-lg shadow-lg p-6 text-left hover:shadow-xl transition-shadow">
-                                <h3 className="text-lg font-bold text-gray-900 mb-3">
+                <div className="space-y-8">
+                    {faqs.map((faq, index) => (
+                        <div key={index} className="bg-black rounded-4xl pb-1 border-2 border-black flex flex-col">
+                            {/* Question Part */}
+                            <div
+                                className={`p-8 shadow-lg cursor-pointer flex justify-between items-center ${openFAQ === index ? 'rounded-tr-4xl rounded-tl-4xl' : 'rounded-4xl'}`}
+                                style={{ backgroundColor: '#ffffff', marginRight: '8px', marginBottom: openFAQ === index ? '2px' : '0px' }}
+                                onClick={() => toggleFAQ(index)}
+                            >
+                                <h3 className="text-2xl font-medium text-black font-bayon">
                                     {faq.question}
                                 </h3>
-                                <p className="text-gray-700 leading-relaxed">
-                                    {faq.answer}
-                                </p>
+                                <img
+                                    src={index % 2 === 0 ? "/Frame 63 (2).png" : "/Frame 63 (1).png"}
+                                    alt="Expand"
+                                    className={`w-8 h-8 transition-transform duration-300 ${openFAQ === index ? 'rotate-45' : ''}`}
+                                />
                             </div>
-                        ))}
 
-                        <div className="bg-blue-50 rounded-lg p-8 text-center mt-12">
-                            <h3 className="text-xl font-bold text-gray-900 mb-4">
-                                Still have questions?
-                            </h3>
-                            <p className="text-gray-700 mb-6">
-                                Feel free to reach out to us. We're here to help!
-                            </p>
-                            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105">
-                                Contact Us
-                            </button>
+                            {/* Answer Part - Only show when expanded */}
+                            {openFAQ === index && (
+                                <div
+                                    className="rounded-br-4xl rounded-bl-4xl p-8 shadow-lg animate-fadeIn"
+                                    style={{ backgroundColor: '#E3E3E3', marginRight: '8px' }}
+                                >
+                                    <p className="text-black leading-relaxed">
+                                        {faq.answer}
+                                    </p>
+                                </div>
+                            )}
                         </div>
-                    </div>
+                    ))}
+
                 </div>
             </div>
+
+
+
+
+            <style jsx>{`
+                @keyframes fadeIn {
+                    from {
+                        opacity: 0;
+                        max-height: 0;
+                    }
+                    to {
+                        opacity: 1;
+                        max-height: 500px;
+                    }
+                }
+                
+                .animate-fadeIn {
+                    animation: fadeIn 0.3s ease-out;
+                }
+            `}</style>
         </section>
     )
 }

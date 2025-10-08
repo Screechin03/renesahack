@@ -8,7 +8,7 @@ export default function TimelineSection() {
                     {/* Frame 53(1) */}
                     <div className="flex justify-start mb-12">
                         <img
-                            src="/frame 53 (1).png"
+                            src="/Frame 53 (1).png"
                             alt="Frame 53(1)"
                             className="w-88 h-auto object-contain"
                         />
@@ -148,7 +148,7 @@ export default function TimelineSection() {
                     {/* Frame 53(1) */}
                     <div className="flex justify-start mb-12">
                         <img
-                            src="/frame 53 (1).png"
+                            src="/Frame 53 (1).png"
                             alt="Frame 53(1)"
                             className="w-88 h-auto object-contain"
                         />
@@ -293,17 +293,17 @@ export default function TimelineSection() {
             <div className="mt-12 overflow-hidden relative">
                 <div className="animate-scroll">
                     <img
-                        src="/group 10 (1).png"
+                        src="/Group 10 (1).png"
                         alt="Moving Disclaimer"
                         className="h-12 w-auto object-contain block"
                     />
                     <img
-                        src="/group 10 (1).png"
+                        src="/Group 10 (1).png"
                         alt="Moving Disclaimer"
                         className="h-12 w-auto object-contain block"
                     />
                     <img
-                        src="/group 10 (1).png"
+                        src="/Group 10 (1).png"
                         alt="Moving Disclaimer"
                         className="h-12 w-auto object-contain block"
                     />
